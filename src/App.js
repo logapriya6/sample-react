@@ -63,7 +63,7 @@ function App() {
     <Form.Control type="text" align="center" placeholder="Enter City Name" onChange={handleCityClick} />{city}
   </Form.Group><br/>
 
-  <Button type="button" className="btn btn-success">Submit</Button>
+  <Button variant="success" type="submit" className="btn btn-success">Submit</Button>
 </Form>
 <br/>
 
